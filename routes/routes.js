@@ -1,8 +1,8 @@
 import express from "express";
-import { Auth, Login, Register } from "../controller/userController.js";
+import { Auth, Login, Register } from "../controller/usercontroller.js";
 const router = express.Router();
 import { body } from "express-validator";
-import { VerifyUser } from "../middleware/verifyUser.js";
+import { VerifyUser } from "../middleware/VerifyUser.js";
 import {
   createContact,
   getContact,
