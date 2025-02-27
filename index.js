@@ -18,4 +18,6 @@ app.use("/contactms", Router);
 
 dotenv.config({ path: "./config/.env" });
 
-
+app.listen(process.env.PORT, () => {
+  console.log("Server is running");
+});
